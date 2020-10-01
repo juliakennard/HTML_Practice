@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=>, initial-scale=1.0">
+        <meta name="description" content="This is a registration form.">
+        <title>My Registration Form</title>
+    </head>
+    <body>
+        <form action="process.php" method="post">
+
+            <h2>My Registration Form</h2>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+
+            <br> <br>
+
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+
+            <br> <br>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+
+            <br> <br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password">
+
+            <br> <br>
+
+            <label for="pw_confirm">PW Confirm</label>
+            <input type="password" id="pw_confirm" name="pw_confirm">
+
+            <br> <br>
+            
+            <label for="birthday">Birthday</label>
+            <input type="date" id="birthday" name="birthday">
+
+            <br> <br>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="other">Other</label>
+            <input type="radio" id="other" name="gender" value="other">
+            
+            <br>
+
+            <p>A short description about yourself</p>
+            <textarea name="description"></textarea>
+
+            <br>
+            
+            <p>Favorite Language</p>
+            <select name="language">
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="ruby">Ruby</option>
+            </select>
+
+            <br> <br> <br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>

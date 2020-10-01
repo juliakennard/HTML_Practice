@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="get_grafting" content="This is a blog about Love Island UK -- a reality TV dating show. The show started in 2015 and has had 6 sucessful seasons in the UK, plus spin offs in Australia, Sweden and the US.">
+        <title>Get Grafting</title>
+    </head>
+    <body>
+
+        <div>
+            <h1>Get Grafting: A Love Island Blog</h1>
+            <br>
+            <img src="love_island.jpg" alt="Picture of Love Island Logo">
+        </div>
+        <div>
+            <p>Love Island is a UK-based reality tv dating show where men and women live together in a villa and must couple up to stay safe from elimination. As new men and women are brought into the villa, contestants must choose whether to stay loyal in their current couple or, as the show has coined, "get grafting" and find a new mate. Contestants are eliminated every week and the last couple standing wins a cash prize.</p> 
+            <p>The game play mixed with drama and British lingo makes for a massively entertaining show to watch (especially when there's nothing else to do during quarantine).</p>
+        </div>
+        
+        <div>
+            <table style="width: 400px">
+                <thead>
+                    <tr>
+                        <th style="width: 25%">Season</th>
+                        <th style="width: 25%">Year</th>
+                        <th style="width: 50%">Winners</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="text-align:center">1</td>
+                        <td style="text-align:center">2015</td>
+                        <td style="text-align:center">Jess Hayes<br>Max Morley</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:center">2</td>
+                        <td style="text-align:center">2016</td>
+                        <td style="text-align:center">Cara De La Hoyde<br>Max Morley</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:center">3</td>
+                        <td style="text-align:center">2017</td>
+                        <td style="text-align:center">Amber Davies<br>Kem Cetinay</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:center">4</td>
+                        <td style="text-align:center">2018</td>
+                        <td style="text-align:center">Dani Dyer<br>Jack Fincham</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:center">5</td>
+                        <td style="text-align:center">2019</td>
+                        <td style="text-align:center">Amber Gill<br>Greg O'Shea</td>
+                    </tr>
+                    <tr>
+                        <td style="text-align:center">6</td>
+                        <td style="text-align:center">2020</td>
+                        <td style="text-align:center">Paige Turley<br>Finn Tapp</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+       
+        <div>
+            <h3>Popular Love Island Lingo</h3>
+                <ul>
+                    <li>Get grafting: Put in work to get someone to like you</li>
+                    <li>Do bits: Get intimate</li>
+                    <li>Get pied: Get dumped</li>
+                    <li>Get mugged off: Be disrespected or played</li>
+                </ul>
+        </div>
+        
+        <a href="https://www.hulu.com/series/love-island-uk-e3b93210-7e03-471f-8270-0e17161809a8?&cmp=7958&utm_source=google&utm_medium=cpc&utm_campaign=BM%20Search%20TV%20Shows&utm_term=+love%20+island%20+series&ds_rl=1263136&gclid=EAIaIQobChMIq-CW44fT6wIVkxx9Ch0EYAVvEAAYASAAEgISYPD_BwE&gclsrc=aw.ds">Click Here For The Love Island UK Homepage</a>
+        
+        <form action="process.php" method="post">
+            <h3>Please take this short survey to tell us your thoughts about Love Island UK!</h3>
+        
+            <p>Which is your favorite season of Love Island UK?</p>
+            <select name="favorite_season">
+                <option value="season1">Season 1</option>
+                <option value="season2">Season 2</option>
+                <option value="season3">Season 3</option>
+                <option value="season4">Season 4</option>
+                <option value="season5">Season 5</option>
+                <option value="season6">Season 6</option>
+            </select>
+
+            <br> <br>
+
+            <label for="favorite_contestant">Who is your favorite Love Island UK contestant?</label>
+            <input type="text" id="favorite_contestant" name="favorite_contestant">
+
+            <br> <br>
+
+            <p>Which of the following Love Island UK phrases have you adopted for use in your daily life?</p>
+            <label for="get_grafting">Get grafting</label>
+            <input type="checkbox" id="get_grafting" name="lingo" value="get_grafting">
+            <br>
+            <label for="do_bits">Do bits</label>
+            <input type="checkbox" id="do_bits" name="lingo" value="do_bits">
+            <br>
+            <label for="get_pied">Get pied</label>
+            <input type="checkbox" id="get_pied" name="lingo" value="get_pied">
+            <br>
+            <label for="get_mugged_off">Get mugged off</label>
+            <input type="checkbox" id="get_mugged_off" name="lingo" value="get_mugged_off">
+            
+            <br> <br>
+
+            <p>Have you watched any Love Island spin off shows (e.g. Love Island Australia, Sweden, US)?</p>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="spin_off" value="yes">
+            <br>
+            <label for="no">No</label>
+            <input type="radio" id="no" name="spin_off" value="no">
+            
+            <br> <br> <br>
+
+            <input type="submit" value="Submit">
+        </form>
+    
+    </body>
+</html>
